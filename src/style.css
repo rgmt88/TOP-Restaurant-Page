@@ -1,0 +1,23 @@
+header {
+    background-color: #333; /* Dark background for the header */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center aligning the navigation */
+  }
+  
+  nav button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the buttons */
+    margin: 0 10px; /* Margin between buttons */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Cursor changes to pointer to indicate clickable */
+    border-radius: 5px; /* Rounded corners for the buttons */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  nav button:hover {
+    background-color: #55a95d; /* Slightly lighter green when hovering */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
