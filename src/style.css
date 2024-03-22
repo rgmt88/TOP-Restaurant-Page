@@ -1,23 +1,30 @@
 header {
-    background-color: #333; /* Dark background for the header */
-    padding: 20px 0; /* Top and bottom padding */
-    text-align: center; /* Center aligning the navigation */
-  }
-  
-  nav button {
-    background-color: #4CAF50; /* Green background for buttons */
-    color: white; /* White text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding inside the buttons */
-    margin: 0 10px; /* Margin between buttons */
-    font-size: 16px; /* Text size */
-    cursor: pointer; /* Cursor changes to pointer to indicate clickable */
-    border-radius: 5px; /* Rounded corners for the buttons */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
-  }
-  
-  nav button:hover {
-    background-color: #55a95d; /* Slightly lighter green when hovering */
-    transform: scale(1.05); /* Slightly larger on hover */
-  }
+  background-color: #FFF; /* White background for the header */
+  padding: 15px 0; /* Increased top and bottom padding for more white space */
+  text-align: center; /* Center aligning the navigation */
+  border-bottom: 1px solid #EEE; /* Subtle bottom border for a touch of sophistication */
+}
+
+nav button {
+  background-color: #FFF; /* Keeps button background white */
+  color: #333; /* Retains dark gray text for contrast */
+  border: 1px solid #DDD; /* Thinner border for a finer look */
+  padding: 10px 15px; /* Adjust padding for smaller buttons */
+  margin: 0 10px; /* Slightly reduced margin between buttons */
+  font-size: 16px; /* Smaller font size for a more compact appearance */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Sophisticated font choice remains */
+  cursor: pointer; /* Cursor changes to pointer to indicate clickable */
+  border-radius: 20px; /* Slightly reduced rounded corners for a refined look */
+  transition: color 0.3s, border-color 0.3s; /* Smooth transition for hover effects maintained */
+  min-width: 120px; /* Ensures all buttons have at least this width */
+  display: inline-block; /* Allows setting a width on the button */
+  text-align: center; /* Ensures text is centered within the button */
+}
+
+nav button:hover {
+  color: #555; /* Darker gray on hover for subtle interaction feedback */
+  border-color: #AAA; /* Darker border on hover for visual depth */
+}
+
+
   
