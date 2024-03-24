@@ -26,5 +26,30 @@ nav button:hover {
   border-color: #AAA; /* Darker border on hover for visual depth */
 }
 
+#content {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-image: url('igor-rand-wfM1Fi-kMaY-unsplash.jpg'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the full div */
+  background-position: center; /* Center the background image */
+  height: 75vh; /* Adjust the height as needed */
+  color: white; /* Set text color to white for all text within the div */
+}
 
-  
+#content h2 {
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold;
+  /* Add any additional styling specific to the h2 element here */
+}
+
+footer h5, footer h6 {
+  margin-top: 5px; /* Reduces space above the elements */
+  margin-bottom: 5px; /* Reduces space below the elements */
+  /* Adjust the '5px' values as needed to achieve the desired spacing */
+}
+
+footer {
+  text-align: center; /* Example to center the content in the footer */
+  padding: 10px; /* Adds some padding around the footer content */
+}
