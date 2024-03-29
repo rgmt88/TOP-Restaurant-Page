@@ -4,6 +4,8 @@ import { setupPage } from './pageload';
 
 import { menuPage } from './menu';
 
+import { contactPage } from './contact';
+
 document.addEventListener('DOMContentLoaded', () => {
     setupPage();
     
@@ -12,5 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const menuButton = document.getElementById('menuButton');
     menuButton.addEventListener('click', menuPage);
+
+    const contactButton = document.getElementById('contactButton');
+    contactButton.addEventListener('click', contactPage);
 })
 
