@@ -26,7 +26,7 @@ nav button:hover {
   border-color: #AAA; /* Darker border on hover for visual depth */
 }
 
-#content {
+.pageload {
   display: flex; /* Use Flexbox for layout */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
@@ -37,10 +37,17 @@ nav button:hover {
   color: white; /* Set text color to white for all text within the div */
 }
 
-#content h2 {
+.pageload h2 {
   font-size: 36px; /* Adjust font size as needed */
   font-weight: bold;
   /* Add any additional styling specific to the h2 element here */
+}
+
+.menupage {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0;
+  height: 100%;
 }
 
 footer h5, footer h6 {
