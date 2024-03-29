@@ -11,7 +11,7 @@ function menuPage() {
     
     // Create and append new elements for the menu page
     const menuItems = document.createElement('div');
-    
+    menuItems.classList.add('menuitems');
 
     const title = document.createElement('h2');
     title.textContent = "DAILY MENUS";
@@ -20,6 +20,7 @@ function menuPage() {
     titleExplanation.textContent = "Two tasting menus are offered daily:";
 
     const tastingMenuNames = document.createElement('ul');
+    tastingMenuNames.className = 'no-bullets';
     
     const tastingMenuItem1 = document.createElement('li');
     tastingMenuItem1.textContent = "CHEF's TASTING MENU";

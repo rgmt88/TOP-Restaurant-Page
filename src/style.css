@@ -50,6 +50,24 @@ nav button:hover {
   height: 100%;
 }
 
+.menupage .menuitems {
+  background-color: rgba(255, 255, 255, 0.95); /* Light background for readability */
+  padding: 20px; /* Padding for content inside */
+  border-radius: 10px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menupicture {
+  background-image: url('jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
 footer h5, footer h6 {
   margin-top: 5px; /* Reduces space above the elements */
   margin-bottom: 5px; /* Reduces space below the elements */
